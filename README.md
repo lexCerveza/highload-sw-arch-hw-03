@@ -4,12 +4,14 @@
 * docker
 * linux + bash
 
-# 1. Set GOOGLE_ANALYTICS_TRACKING_ID in .env file
-
-# 2. Build + run application
+# 1. Build + run application
 ```
 ./run.sh
 ```
 
-# 3. Observe results in google analytics
-![Dashboard](images/image.png)
+# 2. Observe results in console
+![Result 10 concurrent connections](images/image-10c.png)
+![Result 25 concurrent connections](images/image-25c.png)
+![Result 50 concurrent connections](images/image-50c.png)
+![Result 65 concurrent connections](images/image-65c.png)
+![Result 100 concurrent connections](images/image-100c.png)
